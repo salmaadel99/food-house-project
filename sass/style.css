@@ -1,0 +1,392 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'poppins',sans-serif;
+}
+
+.food-header {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/header.png");
+  background-size: cover;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0% 100%);
+}
+
+.overlay {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.site-heading {
+  font-family: 'Merienda One', cursive;
+  color: #fff;
+  font-size: 100px;
+}
+
+.subheading {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 6px;
+}
+
+.navbar {
+  width: 100%;
+  margin-bottom: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navbar a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+
+.navbar a.active {
+  color: #689f38;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 35px;
+}
+
+h3 {
+  color: #444;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #444;
+}
+
+h5 {
+  color: #689f38;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.rounded {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+figure {
+  width: 310px;
+  height: 310px;
+  position: relative;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+}
+
+figure .back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 40px;
+  left: -40px;
+  z-index: -1;
+  background-color: #689f38;
+}
+
+#food-about {
+  padding: 80px 0;
+}
+
+.food_icon {
+  width: 100px;
+  height: 100px;
+  background-color: #689f38;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.food_icon i {
+  margin: auto;
+  font-size: 40px;
+}
+
+#food-offer {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/offer.png);
+  background-size: cover;
+  color: #fff;
+}
+
+#food-offer .offerheading {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 50;
+  color: #fff;
+}
+
+.offer-btn {
+  text-decoration: none;
+  color: #689f38;
+  background-color: #fff;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -ms-border-radius: 27px;
+  -o-border-radius: 27px;
+  transition: 0.4s all;
+  -webkit-transition: 0.4s all;
+  -moz-transition: 0.4s all;
+  -ms-transition: 0.4s all;
+  -o-transition: 0.4s all;
+}
+
+.offer-btn:hover {
+  background-color: #689f38;
+  color: #fff;
+}
+
+#food-menue {
+  padding: 80px 0;
+}
+
+#food-menue .text-center {
+  margin-bottom: 30px;
+}
+
+.menue {
+  list-style-type: none;
+}
+
+.menue .menue-item {
+  color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 50px;
+}
+
+.menue .menue-price {
+  color: #689f38;
+}
+
+#food-testimonial {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/testimonial.png);
+  background-size: cover;
+}
+
+.testimonial {
+  /* width: 800px; */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 70px 30px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial .testimonial-text {
+  color: #444;
+  text-align: center;
+  /* width: 800px; */
+  line-height: 40px;
+}
+
+.testimonial .testimonial-user {
+  color: #689f38;
+  margin-top: 40px;
+}
+
+footer {
+  padding: 80px 0;
+  background-color: #222;
+  color: #fff;
+}
+
+footer .brand {
+  color: #689f38;
+  font-family: 'Merienda One',sans-serif;
+  font-size: 18px;
+}
+
+footer .social-icon {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social-icon li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #689f38;
+  color: #fff;
+  transition: 0.4s all;
+  -webkit-transition: 0.4s all;
+  -moz-transition: 0.4s all;
+  -ms-transition: 0.4s all;
+  -o-transition: 0.4s all;
+}
+
+footer .social-icon li:hover {
+  background-color: #fff;
+  color: #689f38;
+}
+
+.list-inline {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-inline li {
+  margin-right: 20px;
+}
+
+.line-space {
+  line-height: 40px;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.margin-both {
+  margin: 30px 0;
+}
+
+.margin-button {
+  margin-bottom: 20px;
+}
+
+.color-secondry {
+  color: #555;
+}
+/*# sourceMappingURL=style.css.map */
+
+
+/* ----------media quary ---------- */
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .site-heading{
+    font-size: 70px;
+  }
+ nav .subheading{
+    letter-spacing: 4px;
+  }
+  #food-about h4{
+    font-size: 20px;
+  }
+  figure{
+    margin-top: 80px;
+  }
+  .food_icon{
+    width: 60px;
+    height: 60px;
+  }
+  .food_icon i{
+    font-size: 20px;
+  }
+  #food-offer .offerheading{
+   font-size: 40px;
+  }
+}
+@media screen and (min-width:480px) and (max-width:767px){
+  .site-heading{
+    font-size: 50px;
+  }
+  figure{
+    justify-content: center;
+  }
+  .food_icon{
+    width: 40px;
+    height: 40px;
+  }
+  .food_icon i{
+    font-size: 20px;
+  }
+
+}

@@ -1,0 +1,37 @@
+.social-icon{
+    list-style-type: none;
+    display: flex;
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: 10px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: $primary-color;
+        color: $white;
+        transition: 0.4s all;
+        -webkit-transition: 0.4s all;
+        -moz-transition: 0.4s all;
+        -ms-transition: 0.4s all;
+        -o-transition: 0.4s all;
+        &:hover{
+            background-color: $white;
+            color: $primary-color;
+        }
+}
+}
+
+.list-inline{
+    list-style-type: none;
+    display: flex;
+    li{
+        margin-right: 20px;
+    }
+}
